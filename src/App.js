@@ -28,15 +28,9 @@ function App() {
         </p>
 
         <div>
-          {challengeData?.map((challenge) => (
-            <HeroPreview challenge={challenge} />
+          {challengeData?.map((challenge, idx) => (
+            <HeroPreview challenge={challenge} idx={idx} />
           ))}
-        </div>
-
-        <div class="flex items-center w-full mx-auto content-end">
-          <div class="browser-mockup flex">
-            <img src="/images/advice-generator-app-image.png" alt="" />
-          </div>
         </div>
       </div>
     </div>
