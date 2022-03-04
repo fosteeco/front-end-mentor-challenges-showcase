@@ -4,6 +4,8 @@ Live Demo: https://fosteeco.github.io/front-end-mentor-challenges-showcase/
 
 ## How Could you implement this yourself?
 
+Why would you want to set up something like this? With this you can easily add projects that you complete in the future. Just add another project object in the json file, run the script, push your changes, and the website will display the new project.
+
 The main driver in all of this is the json file in the src folder.
 
 ### Writing your json file
