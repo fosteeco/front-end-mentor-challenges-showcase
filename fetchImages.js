@@ -45,9 +45,11 @@ function slugify(str) {
       slugify(challengeObject.name) + "-image.png"
     );
 
-    const newObject = { ...challengeObject, image: fileName };
-    console.log("newObject :", newObject);
+    const relativePath = path.relative("./public", fileName);
+
+    const newObject = { ...challengeObject, image: relativePath };
     newDataObject.data.push(newObject);
+
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.goto(challengeObject.liveDemo, {
