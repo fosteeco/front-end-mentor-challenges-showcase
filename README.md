@@ -26,3 +26,12 @@ Once you've added all of your projects information into the json file you should
 ### Getting Screenshots for your live demos
 
 Make sure you create a public/images folder. This is where the script saves all the image files. The script is is called fetchImages.js. This script will OVERWRITE your ChallengesData.json, adding an image field for each object in the array.
+
+## Dependency error
+
+You may run into an issue with the react-reveal package when you run npm install.
+Running npm with the --legacy-peer-deps may solve this problem. I couldn't find a simpler way to use fade in animations than this package. Could implement a vanilla javscript and css solution but I don't want to use a bunch of functions to calculate if an element is in the viewport. Keep it simple.
+
+```
+npm install --legacy-peer-deps
+```
