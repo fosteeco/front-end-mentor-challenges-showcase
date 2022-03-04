@@ -39,7 +39,6 @@ function slugify(str) {
 (async () => {
   for (let challengeObject of myObject.data) {
     const imageFolder = path.normalize("./public/images");
-    console.log("imageFolder :", imageFolder);
     const fileName = path.join(
       imageFolder,
       slugify(challengeObject.name) + "-image.png"
@@ -52,6 +51,7 @@ function slugify(str) {
 
     const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
+
     await page.goto(challengeObject.liveDemo, {
       waitUntil: "networkidle2",
     });
@@ -60,7 +60,6 @@ function slugify(str) {
   }
 
   const jsonContent = JSON.stringify(newDataObject);
-  console.log(jsonContent);
 
   fs.writeFile(
     "./src/ChallengesData.json",

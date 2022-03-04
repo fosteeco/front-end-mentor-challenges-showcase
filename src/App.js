@@ -1,5 +1,6 @@
 import "./App.css";
-import challengeData from "./ChallengesData"; /* An array containing challenge objects */
+import HeroPreview from "./components/HeroPreview";
+import data from "./ChallengesData.json"; /* An array containing challenge objects */
 /* Object format: 
 name,
 repo,
@@ -7,6 +8,8 @@ liveDemo,
 */
 
 function App() {
+  const challengeData = data.data;
+
   return (
     <>
       <div class="container mx-auto h-screen">
@@ -36,15 +39,15 @@ function App() {
           </a>
         </div>
         <div class="flex items-center w-full mx-auto content-end">
-          {challengeData.map((challenge) => (
-            <div>
-              {challenge.name}, {challenge.repo}, {challenge.liveDemo}
-            </div>
+          {challengeData?.map((challenge) => (
+            <HeroPreview challenge={challenge} />
           ))}
         </div>
 
         <div class="flex items-center w-full mx-auto content-end">
-          <div class="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl"></div>
+          <div class="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl">
+            <img src="/images/advice-generator-app-image.png" alt="" />
+          </div>
         </div>
       </div>
 
