@@ -19,12 +19,18 @@ function App() {
         <p class="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8">
           Visit{" "}
           <a
-            href="#"
+            href="https://www.frontendmentor.io/"
             class="mx-auto lg:mx-0 hover:underline bg-transparent text-gray-600"
           >
             Frontend Mentor
           </a>{" "}
           for more information about what they do
+        </p>
+        <p>
+          Link to Repo for this site at{" "}
+          <a href="https://github.com/fosteeco/front-end-mentor-challenges-showcase">
+            github
+          </a>
         </p>
 
         <div>
