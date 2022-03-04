@@ -52,7 +52,7 @@ Add this to your package.json scripts:
     "deploy": "gh-pages -d build", <---------- #2
 ```
 
-Add this to package.json:
+Add this to package.json, make sure you change the fosteeco to your username:
 
 ```
   "name": "front-end-mentor-challenges-showcase",
