@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/front-end-mentor-challenges-showcase/static/css/main.f91ddb02.css",
+    "main.js": "/front-end-mentor-challenges-showcase/static/js/main.679bdf58.js",
+    "index.html": "/front-end-mentor-challenges-showcase/index.html",
+    "main.f91ddb02.css.map": "/front-end-mentor-challenges-showcase/static/css/main.f91ddb02.css.map",
+    "main.679bdf58.js.map": "/front-end-mentor-challenges-showcase/static/js/main.679bdf58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f91ddb02.css",
+    "static/js/main.679bdf58.js"
+  ]
+}
