@@ -33,13 +33,13 @@ function HeroPreview(props) {
         <Fade delay={500}>
           <div className="project-info">
             <p>
-              <a target="_blank" href={repo}>
-                Link to Repo
+              <a target="_blank" href={liveDemo}>
+                Link to Demo
               </a>
             </p>
             <p>
-              <a target="_blank" href={liveDemo}>
-                Link to Demo
+              <a target="_blank" href={repo}>
+                Link to Repo
               </a>
             </p>
           </div>
