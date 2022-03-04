@@ -35,3 +35,35 @@ Running npm with the --legacy-peer-deps may solve this problem. I couldn't find 
 ```
 npm install --legacy-peer-deps
 ```
+
+## Deploying
+
+freecodecamp has a good guide here: https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+Here's the jist:
+
+```
+npm install gh-pages
+```
+
+Add this to your package.json scripts:
+
+```
+    "predeploy": "npm run build", <----------- #1
+    "deploy": "gh-pages -d build", <---------- #2
+```
+
+Add this to package.json:
+
+```
+  "name": "front-end-mentor-challenges-showcase",
+  "homepage": "https://fosteeco.github.io/front-end-mentor-challenges-showcase", <-----------
+  "version": "0.1.0",
+
+```
+
+Then run :
+
+```
+npm run deploy
+
+```
