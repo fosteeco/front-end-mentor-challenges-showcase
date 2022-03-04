@@ -1,1 +1,34 @@
-{"data":[{"name":"Tip calculator app","repo":"https://github.com/fosteeco/front-end-mentor-tip-calculator-app","liveDemo":"https://fosteeco.github.io/front-end-mentor-tip-calculator-app/","image":"images\\tip-calculator-app-image.png"},{"name":"Advice generator app","repo":"https://github.com/fosteeco/front-end-mentor-advice-generator-app","liveDemo":"https://fosteeco.github.io/front-end-mentor-advice-generator-app/","image":"images\\advice-generator-app-image.png"},{"name":"NFT preview card component","repo":"https://github.com/fosteeco/front-end-mentor-nft-preview-card","liveDemo":"https://fosteeco.github.io/front-end-mentor-nft-preview-card/","image":"images\\nft-preview-card-component-image.png"},{"name":"Order summary card","repo":"https://github.com/fosteeco/front-end-mentor-order-summary-component","liveDemo":"https://fosteeco.github.io/front-end-mentor-order-summary-component/","image":"images\\order-summary-card-image.png"},{"name":"Profile card component","repo":"https://github.com/fosteeco/front-end-mentor-profile-card-component","liveDemo":"https://fosteeco.github.io/front-end-mentor-profile-card-component/","image":"images\\profile-card-component-image.png"}]}
+{
+  "data": [
+    {
+      "name": "Tip calculator app",
+      "repo": "https://github.com/fosteeco/front-end-mentor-tip-calculator-app",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-tip-calculator-app/",
+      "image": "images\\tip-calculator-app-image.png"
+    },
+    {
+      "name": "Advice generator app",
+      "repo": "https://github.com/fosteeco/front-end-mentor-advice-generator-app",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-advice-generator-app/",
+      "image": "images\\advice-generator-app-image.png"
+    },
+    {
+      "name": "NFT preview card component",
+      "repo": "https://github.com/fosteeco/front-end-mentor-nft-preview-card",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-nft-preview-card/",
+      "image": "images\\nft-preview-card-component-image.png"
+    },
+    {
+      "name": "Order summary card",
+      "repo": "https://github.com/fosteeco/front-end-mentor-order-summary-component",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-order-summary-component/",
+      "image": "images\\order-summary-card-image.png"
+    },
+    {
+      "name": "Profile card component",
+      "repo": "https://github.com/fosteeco/front-end-mentor-profile-card-component",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-profile-card-component/",
+      "image": "images\\profile-card-component-image.png"
+    }
+  ]
+}

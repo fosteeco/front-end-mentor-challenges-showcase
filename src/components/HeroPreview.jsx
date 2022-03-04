@@ -42,7 +42,6 @@ function HeroPreview(props) {
                 Link to Demo
               </a>
             </p>
-            Here's a short description of this project
           </div>
         </Fade>
       </div>

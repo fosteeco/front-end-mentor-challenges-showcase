@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Showcase of Frontend Mentor Challenges using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How Could you implement this yourself?
 
-## Available Scripts
+The main driver in all of this is the json file in the src folder.
 
-In the project directory, you can run:
+### Writing your json file
 
-### `npm start`
+The structure of the file should be a json object containing one array object named "data".
+The array consists of objects that contain information about your projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Required fields are name, repo, and liveDemo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Example:
 
-### `npm test`
+```
+    {
+      "name": "Tip calculator app",
+      "repo": "https://github.com/fosteeco/front-end-mentor-tip-calculator-app",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-tip-calculator-app/",
+    },
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once you've added all of your projects information into the json file you should backup the json file just in case something goes wrong with the next step.
 
-### `npm run build`
+### Getting Screenshots for your live demos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Make sure you create a public/images folder. This is where the script saves all the image files. The script is is called fetchImages.js. This script will OVERWRITE your ChallengesData.json, adding an image field for each object in the array.
