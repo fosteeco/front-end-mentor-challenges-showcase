@@ -23,4 +23,5 @@
 
 .hero-component {
   min-height: 90vh;
+  flex-wrap: wrap;
 }
