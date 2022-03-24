@@ -10,7 +10,12 @@ function HeroPreview(props) {
 
   const { challenge, idx } = props;
   const direction = idx % 2 === 0;
-  const { name, repo, liveDemo, image } = challenge;
+  let { name, repo, liveDemo, image } = challenge;
+  if (process.env.NODE_ENV === "development") {
+    console.log("dev env");
+    image =
+      window.location.origin + "/front-end-mentor-challenges-showcase/" + image;
+  }
   return (
     <div
       className={`hero-component flex ${
@@ -18,7 +23,7 @@ function HeroPreview(props) {
       } justify-around items-center`}
     >
       <div>
-        <h2 class="text-xl text-base md:text-xl lg:text-2xl mb-8 justify-self-center">
+        <h2 className="text-xl text-base md:text-xl lg:text-2xl mb-8 justify-self-center">
           {challenge.name}
         </h2>
         <div className={`flex items-center `}>
