@@ -35,7 +35,10 @@ function App() {
 
         <div>
           {challengeData?.map((challenge, idx) => (
-            <HeroPreview challenge={challenge} idx={idx} key={idx} />
+            <>
+              <HeroPreview challenge={challenge} idx={idx} key={idx} />
+              <hr />
+            </>
           ))}
         </div>
       </div>
