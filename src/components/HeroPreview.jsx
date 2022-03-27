@@ -29,7 +29,7 @@ function HeroPreview(props) {
         <div className={`flex items-center `}>
           <Fade left={direction} right>
             <div className="browser-mockup flex">
-              <img src={image} alt="" />
+              <img src={image} className="project-preview" alt="" />
             </div>
           </Fade>
         </div>

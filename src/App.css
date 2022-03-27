@@ -2,6 +2,7 @@
   border-top: 2em solid rgba(230, 230, 230, 0.7);
   position: relative;
   height: 60vh;
+  aspect-ratio: auto;
 }
 
 .browser-mockup:before {
@@ -24,4 +25,9 @@
 .hero-component {
   min-height: 90vh;
   flex-wrap: wrap;
+}
+
+.project-preview {
+  object-fit: contain;
+  object-position: top;
 }
