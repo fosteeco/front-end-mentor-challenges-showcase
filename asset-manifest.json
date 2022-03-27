@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/front-end-mentor-challenges-showcase/static/css/main.d30c5372.css",
+    "main.css": "/front-end-mentor-challenges-showcase/static/css/main.3bd9aea1.css",
     "main.js": "/front-end-mentor-challenges-showcase/static/js/main.982816d0.js",
     "index.html": "/front-end-mentor-challenges-showcase/index.html",
-    "main.d30c5372.css.map": "/front-end-mentor-challenges-showcase/static/css/main.d30c5372.css.map",
+    "main.3bd9aea1.css.map": "/front-end-mentor-challenges-showcase/static/css/main.3bd9aea1.css.map",
     "main.982816d0.js.map": "/front-end-mentor-challenges-showcase/static/js/main.982816d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d30c5372.css",
+    "static/css/main.3bd9aea1.css",
     "static/js/main.982816d0.js"
   ]
 }
