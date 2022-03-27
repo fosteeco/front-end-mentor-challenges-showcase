@@ -7,6 +7,12 @@
       "image": "images\\tip-calculator-app-image.png"
     },
     {
+      "name": "E-commerce product page",
+      "repo": "https://github.com/fosteeco/front-end-mentor-eccomerce-product-page",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-eccomerce-product-page/",
+      "image": "images\\e-commerce-product-page-image.png"
+    },
+    {
       "name": "Advice generator app",
       "repo": "https://github.com/fosteeco/front-end-mentor-advice-generator-app",
       "liveDemo": "https://fosteeco.github.io/front-end-mentor-advice-generator-app/",
