@@ -31,3 +31,17 @@
   object-fit: contain;
   object-position: top;
 }
+
+@media screen and (max-width: 600px) {
+  .browser-mockup {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .hero-component {
+    min-height: auto;
+    gap: 20px;
+  }
+  .hero-component {
+    margin-bottom: 30px;
+  }
+}
