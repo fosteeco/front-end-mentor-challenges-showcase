@@ -3,7 +3,8 @@
     {
       "name": "Interactive comments section",
       "repo": "https://github.com/fosteeco/front-end-mentor-interactive-comments-section",
-      "liveDemo": "https://fosteeco.github.io/front-end-mentor-interactive-comments-section/"
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-interactive-comments-section/",
+      "image": "images\\interactive-comments-section-image.png"
     },
     {
       "name": "Tip calculator app",
