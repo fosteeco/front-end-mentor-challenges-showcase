@@ -8,6 +8,16 @@
   -moz-box-shadow: -1px -1px 38px -3px rgba(0, 0, 0, 0.75);
 }
 
+.broswer-mockup-container {
+  transition: transform 0.5s;
+}
+.broswer-mockup-container:hover {
+  transform: scale(1.025);
+}
+
+.browser-mockup:hover {
+}
+
 .browser-mockup:before {
   display: block;
   position: absolute;

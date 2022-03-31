@@ -26,13 +26,15 @@ function HeroPreview(props) {
         <h2 className="text-xl text-base md:text-xl lg:text-2xl mb-8 justify-self-center">
           {challenge.name}
         </h2>
-        <div className={`flex items-center `}>
-          <Fade left={direction} right>
-            <div className="browser-mockup flex">
-              <img src={image} className="project-preview" alt="" />
-            </div>
-          </Fade>
-        </div>
+        <a href={liveDemo} target="_blank">
+          <div className={`flex items-center broswer-mockup-container`}>
+            <Fade left={direction} right>
+              <div className="browser-mockup flex">
+                <img src={image} className="project-preview" alt="" />
+              </div>
+            </Fade>
+          </div>
+        </a>
       </div>
       <div>
         <Fade delay={500}>
