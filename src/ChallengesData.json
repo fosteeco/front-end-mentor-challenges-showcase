@@ -7,6 +7,12 @@
       "image": "images\\interactive-comments-section-image.png"
     },
     {
+      "name": "Time tracking dashboard",
+      "repo": "https://github.com/fosteeco/front-end-mentor-time-tracking-dashboard",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-time-tracking-dashboard/",
+      "image": "images\\time-tracking-dashboard-image.png"
+    },
+    {
       "name": "Tip calculator app",
       "repo": "https://github.com/fosteeco/front-end-mentor-tip-calculator-app",
       "liveDemo": "https://fosteeco.github.io/front-end-mentor-tip-calculator-app/",
