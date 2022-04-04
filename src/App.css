@@ -56,5 +56,6 @@
   }
   .hero-component {
     margin-bottom: 30px;
+    flex: none;
   }
 }
