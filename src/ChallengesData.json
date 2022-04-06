@@ -39,7 +39,8 @@
     {
       "name": "FAQ accordion card",
       "repo": "https://github.com/fosteeco/front-end-mentor-accordian-card",
-      "liveDemo": "https://fosteeco.github.io/front-end-mentor-accordian-card/"
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-accordian-card/",
+      "image": "images\\faq-accordion-card-image.png"
     },
     {
       "name": "NFT preview card component",
