@@ -63,7 +63,8 @@
     {
       "name": "QR code component",
       "repo": "https://github.com/fosteeco/front-end-mentor-qr-code-component",
-      "liveDemo": "https://fosteeco.github.io/front-end-mentor-qr-code-component/"
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-qr-code-component/",
+      "image": "images\\qr-code-component-image.png"
     }
   ]
 }
