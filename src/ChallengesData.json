@@ -59,6 +59,11 @@
       "repo": "https://github.com/fosteeco/front-end-mentor-profile-card-component",
       "liveDemo": "https://fosteeco.github.io/front-end-mentor-profile-card-component/",
       "image": "images\\profile-card-component-image.png"
+    },
+    {
+      "name": "QR code component",
+      "repo": "https://github.com/fosteeco/front-end-mentor-qr-code-component",
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-qr-code-component/"
     }
   ]
 }
