@@ -15,7 +15,8 @@
     {
       "name": "Calculator app",
       "repo": "https://github.com/fosteeco/front-end-mentor-calculator-app",
-      "liveDemo": "https://fosteeco.github.io/front-end-mentor-calculator-app/"
+      "liveDemo": "https://fosteeco.github.io/front-end-mentor-calculator-app/",
+      "image": "images\\calculator-app-image.png"
     },
     {
       "name": "Tip calculator app",
